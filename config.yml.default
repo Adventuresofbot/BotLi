@@ -1,8 +1,8 @@
 token: "lip_MBHBy3EXqxvezOOFoPrm"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
-  dir: "./"                        # Directory containing the engine.
-  name: "stockfish_28122009"                       # Binary name of the engine to use.
+  dir: "./engines/"                        # Directory containing the engine.
+  name: "stockfish"                       # Binary name of the engine to use.
   ponder: true                            # Think on opponent's time.
   opening_books:
     enabled: false                        # Activate opening books.
